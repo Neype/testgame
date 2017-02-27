@@ -1,0 +1,49 @@
+/***************
+����������� �����
+***************/
+	.wrap{
+    width: 500px;
+    height: 500px;
+    /*margin: 0 0;*/
+    background: #fff;
+    padding: 20px;
+    border: solid;
+	}
+	
+	#mob,#hero{
+		position: fixed;
+		top: 20px;
+		left: 200px;
+		font-size: 28px;
+		color: #444;
+	}
+	#hero{
+		top: 60px;
+	}
+	
+	#dmg,#dps,#gold{
+		position: fixed;
+    	top: 20px;
+   		left: 40px;
+    	font-size: 28px;
+    	color: #444;
+	}
+
+	#dps{
+		top: 60px;
+	}
+	#gold{
+		top: 100px;
+	}
+	#nextMob, #previousMob{
+		position: fixed;
+		top: 140px;
+		left: 40px;
+		font-size: 28px;
+		color: #444;
+	}
+	#previousMob{
+		top: 180px;
+	}
+	
+
